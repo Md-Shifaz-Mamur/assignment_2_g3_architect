@@ -69,18 +69,116 @@
 }
 
 /* Features You Enjoy */
+.features-you-enjoy{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+    margin-top: 130px;
+    
+    
+}
+
 #feature-title{
     border-left: 5px solid #FF900E;
     padding-left: 21px;
 }
 
-.desk-mob-box{
-    /* border-style: none; */
-    /* box-shadow: 5px chartreuse; */
-    width: 586px;
-    height: 171px;
-    padding: 15px;
-    background-color: pink;
-    box-shadow: 10px 10px 5px lightblue inset;
+.feature-box{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+}
 
+.features-whole-left-box{
+    width: 586px;
+    height: 1300px;
+    margin-left: 240px;
+}
+
+
+/* Feature's Right Two Image Container Style */
+.btn-experience{
+    border-radius: 8px;
+    border: none;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+
+}
+
+#Year-of-exp{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+#exp-txt{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* Image+Button Overlay (Positioning)  */
+
+.architect-img-and-exp-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 240px;
+    width: 800px;
+    height: 1059px;
+}
+
+.btn-experience{
+    position: relative;
+    top: 870px;
+    right: 75px;
+
+}
+
+.architect{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+}
+
+
+
+/* Some Facts  */
+
+/* Fact Cards */
+
+.facts-cards-1, .facts-cards-2, .facts-cards-3, .facts-cards-4 {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    /* height: 241.83px; */
+    text-align: center;
+    padding: 45px 35px; 
+    transition: width 1s, transform 1s;
+}
+
+.facts-cards-1:hover{
+    width: 250px;
+    transform: rotate(30deg);
+}
+.facts-cards-2:hover{
+    width: 250px;
+    transform: rotate(30deg);
+}
+.facts-cards-3:hover{
+    width: 250px;
+    transform: rotate(30deg);
+}
+.facts-cards-4:hover{
+    width: 250px;
+    transform: rotate(30deg);
+}
+
+
+.facts-cards-container{
+    display: flex;
+    justify-content: space-evenly;
 }
