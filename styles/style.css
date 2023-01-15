@@ -1,8 +1,14 @@
+/* Font Family  */
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
 /* Upper Banner Style ---->> It contains --> Nav Bar, h1, p, button and an image */
 .upper-banner-container{
     background: rgba(255, 144, 14, 0.1);
-    width: 100%;
-    height: 100%;
 }
 
 
@@ -13,17 +19,24 @@
     padding-top: 50px;
     padding-left: 228px;
     padding-right: 240px;
+    column-gap: 673px;
 }
 
 .nav-left-content{
-    
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
 }
+
 
 .nav-right-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 34px;
+    font-weight: 500;
+    font-size: 18px;
     
 }
 
@@ -31,9 +44,51 @@
     text-align: center;
 }
 
+.upper-banner-texts-and-btn{
+
+}
+
+#upper-banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-right: 529px;
+    margin-left: 529px;
+    margin-bottom: 0px;
+}
+
+#upper-banner-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 529px;
+    margin-left: 529px;
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+
+.btn-upper-banner{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+}
+
 .upper-banner-img{
-    align-items: center;
-    padding: auto;
+    
+    justify-content: center;
+    padding: 0px 0px 45px 0px;
+    width: 1440px;
+height: 700px;
+margin: 0px;
+
 }
 
 /* Quick List  */
