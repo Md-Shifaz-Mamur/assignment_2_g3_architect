@@ -9,9 +9,8 @@
 /* Upper Banner Style ---->> It contains --> Nav Bar, h1, p, button and an image */
 .upper-banner-container{
     background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 0px;
 }
-
-
 
 .nav-bar{
     display: flex;
@@ -93,12 +92,25 @@ margin: 0px;
 
 /* Quick List  */
 
+.btn-primary{
+    height: 64px;
+left: 1082px;
+background: #FF900E;
+border-radius: 8px;
+padding: 20px 25px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+border: none;
+}
+
 .quick-list-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 301px;
     margin-top: 85px;
     margin-right: 73px;
+    gap: 24px;
 }
 
 
@@ -119,7 +131,8 @@ margin: 0px;
 }
 
 .quick-list-txt-items{
-    margin-left: 73px;
+    margin-left: auto;
+    margin-right: 301px;
     
 }
 
@@ -203,7 +216,29 @@ margin: 0px;
 
 /* Some Facts  */
 
+.some-facts-txts{
+margin-top: 0px;
+margin-left: 240px;
+}
+
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+#some-facts-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-right: 1138px;
+}
+
 /* Fact Cards */
+.facts-cards-container{
+    margin-right: 290px;
+    margin-left: 290px;
+}
 
 .facts-cards-1, .facts-cards-2, .facts-cards-3, .facts-cards-4 {
     border: 1px solid #FF900E;
@@ -235,10 +270,27 @@ margin: 0px;
 
 .facts-cards-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    column-gap: 124px; 
+    margin-top: 100px;
 }
 
 /* Our sponsor style  */
+.our-sponsors{
+    margin-top: 180px;
+}
+
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-subtitle{
+    margin-top: 24px;
+    margin-right: 689px;
+    margin-left: 689px;
+}
+
 .sponsor-texts{
     text-align: center;
 }
@@ -247,6 +299,7 @@ margin: 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .footer-para{
@@ -272,4 +325,9 @@ margin: 0px;
     align-items: center;
     margin: 240px;
     column-gap: 170px;
+}
+
+.goal-banner-title{
+    font-weight: 700;
+    font-size: 45px;
 }
