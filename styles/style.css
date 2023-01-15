@@ -331,3 +331,128 @@ margin-left: 240px;
     font-weight: 700;
     font-size: 45px;
 }
+
+
+
+/* Media Query: Mobile Device */
+
+@media only screen and (max-width: 688px){
+    *{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .nav-left-txt{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   .upper-banner-texts-and-btn, .nav-bar, .nav-right-content{
+        grid-template-columns: repeat(1, 1fr);
+        
+        flex-direction: column;
+        justify-items:center;
+        
+    }
+    .upper-banner-container{
+        width: 100%;
+        background-color: #E02C6D;
+    }
+    .upper-banner-img{
+        width: 688px;
+        height: 564px;
+    }
+    .upper-banner-title{
+        margin-left: 0px;
+    }
+    #upper-banner-subtitle, #upper-banner-title{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    /* Quick List Image */
+    .quick-list-txt-items, .quick-list-img, .quick-list{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-items:center;
+        margin-right: 0px;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .quick-list-txt-items{
+        text-align: center;
+    }
+
+    .features-you-enjoy{
+    flex-direction: column;
+    justify-items:center;
+    }
+    .features-whole-left-box{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .architect{
+        width: 687px;
+        height: 1170;
+    }
+    .btn-experience {
+        /* position: relative; */
+        top: 1000px;
+        right: -170px;
+    }
+
+    .some-facts{
+        margin-top: 300px;
+        
+    }
+
+    .some-facts-txts{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #some-facts-subtitle{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    }
+
+    .facts-cards-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        row-gap: 80px;
+    }
+
+    .sponsor-subtitle{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sponsor-img-container{
+        flex-direction: column;
+        justify-items:center;
+        row-gap: 50px;
+    }
+
+    .goal-banner-container{
+        flex-direction: column;
+        justify-items:center;
+        row-gap: 50px;
+    }
+
+    .goal-banner-left-contents{
+        text-align: center;
+    }
+
+    .footer-para{
+        background: #FFF4E7;
+        border-radius: 8px;
+        padding: 30px 10px;
+        margin: 130px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .architect-img-and-exp-container{
+        margin-right: 0px;
+        width: 687px;
+        height: 1174px;
+    }
+}
